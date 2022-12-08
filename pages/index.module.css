@@ -2,11 +2,21 @@
     background-color: #F8F8F9;
     display: flex;
     justify-content: space-between;
+    padding: 1%;
 }
 .logo{
-    background-color: aqua;
-    margin-left: 40px;
-    width: fit-content;
+    margin-left: 4%;
+    /* width: 20px;
+    height: 15px; */
+    width: 160px;
+    height: 60px;
+
+}
+
+.logoStyles{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .navBarOptions{
@@ -24,24 +34,27 @@
 .sectionTwo{
     display: flex;
     /* background-color: yellow; */
-    padding: 10px;
-    margin-top: 40px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    background-image: url("/SVG-BG-2.svg");
 }
 .growBusiness{
     /* background-color: aquamarine; */
-    width: 50%;
+    width: 70%;
 }
 
 .growBusinessHeader{
-    padding: 0% 8%;
+    padding: 0% 7%;
     font-family: "Open Sans", Sans-serif;
     font-size: 35px;
+    max-width: 80%;
     color: #001934;
 }
 
 .growBusinessSubHeader{
-    width: 85%;
-    padding: 0% 8%;
+    max-width: 80%;
+    padding: 0% 7%;
     font-family: "Open Sans", Sans-serif;
     color: #6B747E;
     font-size: 20px;
@@ -50,7 +63,7 @@
 
 .queryForm{
     /* display: block; */
-    padding: 0% 8%;
+    padding: 0% 7%;
 }
 
 .emailID{
@@ -63,9 +76,11 @@
 }
 
 .messageForUs{
-    width: 447px;
+    width: 446px;
     height: 146px;
-    max-width: 447px;
+    /* max-height: 146px;
+    max-width: 447px; */
+    resize: none;
     padding: 2%;
     color: #6B747E;
     font-size: medium;
@@ -92,7 +107,211 @@
     background-color: #0036d9;
 }
 
-.displayImage{
-    background-color: #6B747E;
-    width: 50%;
+
+/* Section 3 CSS */
+
+.sectionThree{
+    display: block;
+    /* background-color: #0069D9; */
 }
+
+.ourProcess{
+    font-family: Roboto;
+    text-align: center;
+    display: block;
+}
+
+.ourProcessHeader{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 35px;
+    color: #001934;
+}
+
+.ourProcessSubHeader{
+    width: 100%;
+    overflow: hidden;
+    white-space: wrap;
+    font-family: "Open Sans", Sans-serif;
+    color: #6B747E;
+    font-size: 20px;
+    margin: -40px 0px 30px 0px;
+}
+
+.commonHeader{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 35px;
+    color: #001934;
+    /* width: 100%; */
+    margin-top: 10px;
+
+}
+
+.commonSubHeader{
+    font-family: "Open Sans", Sans-serif;
+    color: #6B747E;
+    font-size: 17px;
+    padding: 0px 20px;
+    margin-top: -20px;
+    /* overflow: hidden;
+    white-space: wrap; */
+    /* margin: auto; */
+
+}
+
+.takeRequirementRefineFurther{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: beige; */
+}
+
+.takeRequirement{
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(223, 223, 223);
+    border-width: thin;
+    display: block;
+    /* background-color: #0036d9; */
+    width: 30%;
+    padding: 30px 0px;
+}
+
+.refineFurther{
+    border-bottom-style: solid;
+    border-color: rgb(223, 223, 223);
+    border-width: thin;
+    /* background-color: aqua; */
+    width: 30%;
+    padding: 30px 0px;
+}
+
+.borderRightForTest{
+    border-right-style: solid;
+    border-color: rgb(223, 223, 223);
+    border-width: thin;
+    display: block;
+    /* background-color: #0036d9; */
+    width: 30%;
+    padding: 30px 0px;
+}
+
+.noBorderForDevelope{
+    display: block;
+    /* background-color: #0036d9; */
+    width: 30%;
+    padding: 30px 0px;
+
+}
+
+.designConfirmDevelope{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: beige; */
+}
+
+.testDeliver{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: beige; */
+}
+
+/* section 4 css */
+
+.sectionFour{
+    margin-top: 50px;
+    background-image: url("/BackgroundFourthSection.svg");
+    padding-bottom: 40px;
+}
+
+.ourServices{
+    font-family: Roboto;
+    text-align: center;
+    display: block;
+}
+
+.ourServicesHeader{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.ourServicesSubHeader{
+    width: 100%;
+    overflow: hidden;
+    white-space: wrap;
+    font-family: "Open Sans", Sans-serif;
+    color: #9DB2C8;
+    font-size: 20px;
+    margin: -40px 0px 30px 0px;
+}
+
+.sectionFourCommonHeader{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.sectionFourCommonSubHeader{
+    font-family: "Open Sans", Sans-serif;
+    color: #9DB2C8;
+    font-size: 20px;
+    padding: 0px 30px;
+    margin-top: -15px;
+}
+
+.webDevMobDev{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: beige; */
+
+}
+
+.webDevelopement{
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: #1cc7d3;
+    border-width: thin;
+    display: block;
+    /* background-color: #0036d9; */
+    width: 30%;
+    padding: 30px 0px;
+}
+
+.mobileDevelopement{
+    border-bottom-style: solid;
+    border-color: #1cc7d3;
+    border-width: thin;
+    /* background-color: aqua; */
+    width: 30%;
+    padding: 30px 0px;
+}
+
+.borderRightForWebDev{
+    border-right-style: solid;
+    border-color: #1cc7d3;
+    border-width: thin;
+    display: block;
+    /* background-color: #0036d9; */
+    width: 30%;
+    padding: 30px 0px;
+}
+
+.noBorderForMobDev{
+    display: block;
+    /* background-color: #0036d9; */
+    width: 30%;
+    padding: 30px 0px;
+
+}
+
+
+
+
+
+
+

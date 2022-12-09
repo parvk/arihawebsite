@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding: 1%;
 }
+
 .logo{
     margin-left: 4%;
     /* width: 20px;
@@ -23,11 +24,31 @@
     display: flex;
     justify-content: space-evenly;
     margin-right: 40px;
-
+    align-items: center;
 }
+
+.navBarOptionIconText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarIcon{
+    width: 25px;
+    height: 25px;
+    padding-right: -10px;
+}
+
+.navBarIconStyles{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .h3{
     font-family: "Open Sans", Sans-serif;
     padding: 0px 20px;
+    margin-left: -15px;
 
 }
 
@@ -39,6 +60,7 @@
     margin-bottom: 60px;
     background-image: url("/SVG-BG-2.svg");
 }
+
 .growBusiness{
     /* background-color: aquamarine; */
     width: 70%;
@@ -107,7 +129,6 @@
     background-color: #0036d9;
 }
 
-
 /* Section 3 CSS */
 
 .sectionThree{
@@ -143,7 +164,6 @@
     color: #001934;
     /* width: 100%; */
     margin-top: 10px;
-
 }
 
 .commonSubHeader{
@@ -155,7 +175,6 @@
     /* overflow: hidden;
     white-space: wrap; */
     /* margin: auto; */
-
 }
 
 .takeRequirementRefineFurther{
@@ -308,9 +327,92 @@
     padding: 30px 0px;
 }
 
+.sectionFive{
+    background-color: #F7F7F8;
+}
 
+.sectionFiveCommonHeader{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 35px;
+    color: #001934;
+    margin-top: 10px;
 
+}
 
+.sectionFiveCommonSubHeader{
+    font-family: "Open Sans", Sans-serif;
+    color: #6B747E;
+    font-size: 17px;
+    padding: 7px 20px;
+    margin-top: -20px;
+}
 
+.sectionFiveTop{
+    padding: 80px 150px 0px 150px;
+    display: flex;
+    justify-content: space-around;
+}
 
+.sectionWorkingDays{
+    display: block;
+}
+
+.sectionContactInfo{
+    display: block;
+
+}
+
+.sectionGetStartedNow{
+    display: block;
+}
+
+.sectionFiveQueryForm{
+    display: block; 
+    margin-top: -20px;
+}
+
+.sectionFiveEmailID{
+    width: 265px;
+    padding: 2%;
+    color: #6B747E;
+    font-size: medium;
+    font-family: "Open Sans", Sans-serif;
+}
+
+.sectionFiveMessageForUs{
+    width: 265px;
+    height: 90px;
+    resize: none;
+    padding: 2%;
+    color: #6B747E;
+    font-size: medium;
+    font-family: "Open Sans", Sans-serif;
+    margin-top: 10px;
+}
+
+.sectionFiveSubmitButton{
+    width: 265px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: #1cc7d3;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+:hover.sectionFiveSubmitButton{
+    background-color: #1ca2d3;
+}
+
+.copyright{
+    border-top: 1px solid #c5c5c5;
+    padding: 25px 15px;
+    text-align: center;
+    color: #555555;
+    font-size: 16px;
+}
 

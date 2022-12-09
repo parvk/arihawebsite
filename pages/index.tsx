@@ -12,9 +12,33 @@ export default function Home() {
           <img className={styles.logoStyles} src="/Arihaa-Logo.svg"></img>
         </div>
         <div className={styles.navBarOptions}>
-          <h3 className={styles.h3}>(+91)8978767894</h3>
-          <h3 className={styles.h3}>Mumbai, Maharastra</h3>
-          <h3 className={styles.h3}>yakshkothari5@gmail.com</h3>
+          <div className={styles.navBarOptionIconText}>
+            <div className={styles.navBarIcon}>
+              <img
+                className={styles.navBarIconStyles}
+                src="/CallIcon.svg"
+              ></img>
+            </div>
+            <h3 className={styles.h3}>(+91)8978767894</h3>
+          </div>
+          <div className={styles.navBarOptionIconText}>
+            <div className={styles.navBarIcon}>
+              <img
+                className={styles.navBarIconStyles}
+                src="/locationIcon.svg"
+              ></img>
+            </div>
+            <h3 className={styles.h3}>Mumbai, Maharastra</h3>
+          </div>
+          <div className={styles.navBarOptionIconText}>
+            <div className={styles.navBarIcon}>
+              <img
+                className={styles.navBarIconStyles}
+                src="/mailIcon.svg"
+              ></img>
+            </div>
+            <h3 className={styles.h3}>yakshkothari5@gmail.com</h3>
+          </div>
         </div>
       </div>
       {/* Section 1 navbar end */}
@@ -182,6 +206,65 @@ export default function Home() {
         </div>
       </div>
       {/* Section 4 Our Services End */}
+
+      {/* Section Five Start */}
+      <div className={styles.sectionFive}>
+        <div className={styles.sectionFiveTop}>
+          <div className={styles.sectionWorkingDays}>
+            <h4 className={styles.sectionFiveCommonHeader}>Working Days</h4>
+            <p className={styles.sectionFiveCommonSubHeader}>Monday-Saturday</p>
+          </div>
+          <div className={styles.sectionContactInfo}>
+            <h4 className={styles.sectionFiveCommonHeader}>Contact Info</h4>
+            <p className={styles.sectionFiveCommonSubHeader}>(+91)8978767894</p>
+            <p className={styles.sectionFiveCommonSubHeader}>
+              yakshkothari5@gmail.com
+            </p>
+            <p className={styles.sectionFiveCommonSubHeader}>
+              Lalbaug, Mumbai – 400022
+            </p>
+          </div>
+          <div className={styles.sectionGetStartedNow}>
+            <h4 className={styles.sectionFiveCommonHeader}>Get started now</h4>
+            <div className={styles.sectionFiveQueryForm}>
+              <div>
+                <input
+                  className={styles.sectionFiveEmailID}
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                ></input>
+              </div>
+              <div>
+                <textarea
+                  className={styles.sectionFiveMessageForUs}
+                  id="textArea"
+                  name="textArea"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div>
+                <button
+                  className={styles.sectionFiveSubmitButton}
+                  id="submitButton"
+                  name="submitButton"
+                >
+                  Send mail
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.sectionFiveBottom}>
+          <div className={styles.sectionFooter}>
+            <p className={styles.copyright}>
+              &copy; COPYRIGHT 2020 ARIHA TECHNOLOGIES. ALL RIGHTS RESERVED.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* Section Five End */}
     </div>
   );
 }

@@ -1,418 +1,559 @@
+.mainContainer {
+  width: 100%;
+}
+
 .navBar {
-    background-color: #F8F8F9;
-    display: flex;
-    justify-content: space-between;
-    padding: 1%;
+  background-color: #f8f8f9;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
 }
 
-.logo{
-    margin-left: 4%;
-    /* width: 20px;
+.logo {
+  margin-left: 4%;
+  /* width: 20px;
     height: 15px; */
-    width: 160px;
-    height: 60px;
-
+  width: 160px;
+  height: 60px;
 }
 
-.logoStyles{
+.logoStyles {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.navBarOptions {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 40px;
+  align-items: center;
+}
+
+.navBarOptionIconText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBarIcon {
+  width: 25px;
+  height: 25px;
+  padding-right: -10px;
+}
+
+.navBarIconStyles {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.h3 {
+  font-family: "Open Sans", Sans-serif;
+  padding: 0px 20px;
+  margin-left: -15px;
+}
+
+.sectionTwo {
+  display: flex;
+  /* background-color: yellow; */
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  background-image: url("/SVG-BG-2.svg");
+}
+
+.growBusiness {
+  /* background-color: aquamarine; */
+  width: 70%;
+}
+
+.growBusinessHeader {
+  padding: 0% 7%;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 35px;
+  max-width: 80%;
+  color: #001934;
+}
+
+.growBusinessSubHeader {
+  max-width: 80%;
+  padding: 0% 7%;
+  font-family: "Open Sans", Sans-serif;
+  color: #6b747e;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.queryForm {
+  /* display: block; */
+  padding: 0% 7%;
+}
+
+.emailID {
+  width: 446px;
+  padding: 2%;
+  color: #6b747e;
+  font-size: medium;
+  font-family: "Open Sans", Sans-serif;
+  /* border-radius: 10px; */
+}
+
+.messageForUs {
+  width: 446px;
+  height: 146px;
+  /* max-height: 146px;
+    max-width: 447px; */
+  resize: none;
+  padding: 2%;
+  color: #6b747e;
+  font-size: medium;
+  font-family: "Open Sans", Sans-serif;
+  margin-top: 10px;
+  /* border-radius: 10px; */
+}
+
+.submitButton {
+  width: 447px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+  background-color: #0069d9;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+:hover.submitButton {
+  background-color: #0036d9;
+}
+
+/* Section 3 CSS */
+
+.sectionThree {
+  display: block;
+  /* background-color: #0069D9; */
+}
+
+.ourProcess {
+  font-family: Roboto;
+  text-align: center;
+  display: block;
+}
+
+.ourProcessHeader {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 35px;
+  color: #001934;
+}
+
+.ourProcessSubHeader {
+  width: 100%;
+  overflow: hidden;
+  white-space: wrap;
+  font-family: "Open Sans", Sans-serif;
+  color: #6b747e;
+  font-size: 20px;
+  margin: -40px 0px 30px 0px;
+}
+
+.commonHeader {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 35px;
+  color: #001934;
+  /* width: 100%; */
+  margin-top: 10px;
+}
+
+.commonSubHeader {
+  font-family: "Open Sans", Sans-serif;
+  color: #6b747e;
+  font-size: 17px;
+  padding: 0px 20px;
+  margin-top: -20px;
+  /* overflow: hidden;
+    white-space: wrap; */
+  /* margin: auto; */
+}
+
+.takeRequirementRefineFurther {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* background-color: beige; */
+}
+
+.takeRequirement {
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-color: rgb(223, 223, 223);
+  border-width: thin;
+  display: block;
+  /* background-color: #0036d9; */
+  width: 30%;
+  padding: 30px 0px;
+}
+
+.refineFurther {
+  border-bottom-style: solid;
+  border-color: rgb(223, 223, 223);
+  border-width: thin;
+  /* background-color: aqua; */
+  width: 30%;
+  padding: 30px 0px;
+}
+
+.borderRightForTest {
+  border-right-style: solid;
+  border-color: rgb(223, 223, 223);
+  border-width: thin;
+  display: block;
+  /* background-color: #0036d9; */
+  width: 30%;
+  padding: 30px 0px;
+}
+
+.noBorderForDevelope {
+  display: block;
+  /* background-color: #0036d9; */
+  width: 30%;
+  padding: 30px 0px;
+}
+
+.designConfirmDevelope {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* background-color: beige; */
+}
+
+.testDeliver {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* background-color: beige; */
+}
+
+/* section 4 css */
+
+.sectionFour {
+  margin-top: 50px;
+  background-image: url("/BackgroundFourthSection.svg");
+  padding-bottom: 40px;
+}
+
+.ourServices {
+  font-family: Roboto;
+  text-align: center;
+  display: block;
+}
+
+.ourServicesHeader {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 35px;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+.ourServicesSubHeader {
+  width: 100%;
+  overflow: hidden;
+  white-space: wrap;
+  font-family: "Open Sans", Sans-serif;
+  color: #9db2c8;
+  font-size: 20px;
+  margin: -40px 0px 30px 0px;
+}
+
+.sectionFourCommonHeader {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.sectionFourCommonSubHeader {
+  font-family: "Open Sans", Sans-serif;
+  color: #9db2c8;
+  font-size: 20px;
+  padding: 0px 30px;
+  margin-top: -15px;
+}
+
+.webDevMobDev {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* background-color: beige; */
+}
+
+.webDevelopement {
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-color: #1cc7d3;
+  border-width: thin;
+  display: block;
+  /* background-color: #0036d9; */
+  width: 30%;
+  padding: 30px 0px;
+}
+
+.mobileDevelopement {
+  border-bottom-style: solid;
+  border-color: #1cc7d3;
+  border-width: thin;
+  /* background-color: aqua; */
+  width: 30%;
+  padding: 30px 0px;
+}
+
+.borderRightForWebDev {
+  border-right-style: solid;
+  border-color: #1cc7d3;
+  border-width: thin;
+  display: block;
+  /* background-color: #0036d9; */
+  width: 30%;
+  padding: 30px 0px;
+}
+
+.noBorderForMobDev {
+  display: block;
+  /* background-color: #0036d9; */
+  width: 30%;
+  padding: 30px 0px;
+}
+
+.sectionFive {
+  background-color: #f7f7f8;
+}
+
+.sectionFiveCommonHeader {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 35px;
+  color: #001934;
+  margin-top: 10px;
+}
+
+.sectionFiveCommonSubHeader {
+  font-family: "Open Sans", Sans-serif;
+  color: #6b747e;
+  font-size: 17px;
+  padding: 7px 20px;
+  margin-top: -20px;
+}
+
+.sectionFiveTop {
+  padding: 80px 150px 0px 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sectionWorkingDays {
+  display: block;
+}
+
+.sectionContactInfo {
+  display: block;
+}
+
+.sectionGetStartedNow {
+  display: block;
+}
+
+.sectionFiveQueryForm {
+  display: block;
+  margin-top: -20px;
+}
+
+.sectionFiveEmailID {
+  width: 265px;
+  padding: 2%;
+  color: #6b747e;
+  font-size: medium;
+  font-family: "Open Sans", Sans-serif;
+}
+
+.sectionFiveMessageForUs {
+  width: 265px;
+  height: 90px;
+  resize: none;
+  padding: 2%;
+  color: #6b747e;
+  font-size: medium;
+  font-family: "Open Sans", Sans-serif;
+  margin-top: 10px;
+}
+
+.sectionFiveSubmitButton {
+  width: 265px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 15px;
+  color: aliceblue;
+  background-color: #1cc7d3;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+:hover.sectionFiveSubmitButton {
+  background-color: #1ca2d3;
+}
+
+.copyright {
+  border-top: 1px solid #c5c5c5;
+  padding: 25px 15px;
+  text-align: center;
+  color: #555555;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  .mainContainer {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
+  }
 
-.navBarOptions{
+  .navBar {
+    /* background-color: #0036d9; */
+    display: block;
+    width: fit-content;
+    padding: 20px;
+  }
+
+  .logo {
+    margin: auto;
+    width: 120px;
+    height: 60px;
+  }
+
+  .navBarOptions {
     display: flex;
-    justify-content: space-evenly;
-    margin-right: 40px;
-    align-items: center;
-}
+    /* justify-content: center; */
+    margin: auto;
+    padding: 0px 80px;
+    width: max-content;
+  }
 
-.navBarOptionIconText{
+  .navBarOptionIconText {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
 
-.navBarIcon{
+  .navBarIcon {
     width: 25px;
     height: 25px;
-    padding-right: -10px;
-}
+    /* padding-right: -10px; */
+  }
 
-.navBarIconStyles{
+  .navBarIconStyles {
     width: 100%;
     height: 100%;
     object-fit: contain;
-}
+  }
 
-.h3{
+  .h3 {
     font-family: "Open Sans", Sans-serif;
-    padding: 0px 20px;
-    margin-left: -15px;
+    padding: 0px 70px 0px 25px;
+    /* margin-left: -15px; */
+    width: fit-content;
+  }
 
-}
+  /* Section 2 */
 
-.sectionTwo{
-    display: flex;
-    /* background-color: yellow; */
+  .sectionTwo {
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%; */
+    width: 100%;
     padding: 5px 10px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 60px;
-    background-image: url("/SVG-BG-2.svg");
-}
+    background-image: none;
+  }
 
-.growBusiness{
-    /* background-color: aquamarine; */
-    width: 70%;
-}
-
-.growBusinessHeader{
-    padding: 0% 7%;
-    font-family: "Open Sans", Sans-serif;
-    font-size: 35px;
-    max-width: 80%;
-    color: #001934;
-}
-
-.growBusinessSubHeader{
-    max-width: 80%;
-    padding: 0% 7%;
-    font-family: "Open Sans", Sans-serif;
-    color: #6B747E;
-    font-size: 20px;
-    margin-top: -20px;
-}
-
-.queryForm{
+  .growBusiness {
+    background-color: aquamarine;
     /* display: block; */
-    padding: 0% 7%;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* width: max-content; */
+  }
 
-.emailID{
-    width: 446px;
+  .growBusinessHeader {
+    padding: 0px;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 25px;
+    width: 100%;
+    /* width: max-content; */
+    color: #001934;
+    text-align: center;
+  }
+
+  .growBusinessSubHeader {
+    width: 100%;
+    /* width: max-content; */
+    padding: 0px;
+    font-family: "Open Sans", Sans-serif;
+    color: #6b747e;
+    text-align: center;
+    font-size: 10x;
+    margin-top: -20px;
+  }
+
+  .queryForm {
+    display: block;
+    padding: 0% 2%;
+    width: 100%;
+  }
+
+  .emailID {
+    width: 90%;
     padding: 2%;
-    color: #6B747E;
+    color: #6b747e;
     font-size: medium;
     font-family: "Open Sans", Sans-serif;
     /* border-radius: 10px; */
-}
+  }
 
-.messageForUs{
-    width: 446px;
+  .messageForUs {
+    width: 90%;
     height: 146px;
     /* max-height: 146px;
-    max-width: 447px; */
+      max-width: 447px; */
     resize: none;
     padding: 2%;
-    color: #6B747E;
+    color: #6b747e;
     font-size: medium;
     font-family: "Open Sans", Sans-serif;
     margin-top: 10px;
     /* border-radius: 10px; */
-}
+  }
 
-.submitButton{
-    width: 447px;
+  .submitButton {
+    width: 90%;
     height: 50px;
     margin-top: 10px;
     margin-bottom: 20px;
     font-family: "Open Sans", Sans-serif;
     font-size: 20px;
     color: aliceblue;
-    background-color: #0069D9;
+    background-color: #0069d9;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-}
+  }
 
-:hover.submitButton{
+  :hover.submitButton {
     background-color: #0036d9;
+  }
 }
-
-/* Section 3 CSS */
-
-.sectionThree{
-    display: block;
-    /* background-color: #0069D9; */
-}
-
-.ourProcess{
-    font-family: Roboto;
-    text-align: center;
-    display: block;
-}
-
-.ourProcessHeader{
-    font-family: "Open Sans", Sans-serif;
-    font-size: 35px;
-    color: #001934;
-}
-
-.ourProcessSubHeader{
-    width: 100%;
-    overflow: hidden;
-    white-space: wrap;
-    font-family: "Open Sans", Sans-serif;
-    color: #6B747E;
-    font-size: 20px;
-    margin: -40px 0px 30px 0px;
-}
-
-.commonHeader{
-    font-family: "Open Sans", Sans-serif;
-    font-size: 35px;
-    color: #001934;
-    /* width: 100%; */
-    margin-top: 10px;
-}
-
-.commonSubHeader{
-    font-family: "Open Sans", Sans-serif;
-    color: #6B747E;
-    font-size: 17px;
-    padding: 0px 20px;
-    margin-top: -20px;
-    /* overflow: hidden;
-    white-space: wrap; */
-    /* margin: auto; */
-}
-
-.takeRequirementRefineFurther{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    /* background-color: beige; */
-}
-
-.takeRequirement{
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-color: rgb(223, 223, 223);
-    border-width: thin;
-    display: block;
-    /* background-color: #0036d9; */
-    width: 30%;
-    padding: 30px 0px;
-}
-
-.refineFurther{
-    border-bottom-style: solid;
-    border-color: rgb(223, 223, 223);
-    border-width: thin;
-    /* background-color: aqua; */
-    width: 30%;
-    padding: 30px 0px;
-}
-
-.borderRightForTest{
-    border-right-style: solid;
-    border-color: rgb(223, 223, 223);
-    border-width: thin;
-    display: block;
-    /* background-color: #0036d9; */
-    width: 30%;
-    padding: 30px 0px;
-}
-
-.noBorderForDevelope{
-    display: block;
-    /* background-color: #0036d9; */
-    width: 30%;
-    padding: 30px 0px;
-
-}
-
-.designConfirmDevelope{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    /* background-color: beige; */
-}
-
-.testDeliver{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    /* background-color: beige; */
-}
-
-/* section 4 css */
-
-.sectionFour{
-    margin-top: 50px;
-    background-image: url("/BackgroundFourthSection.svg");
-    padding-bottom: 40px;
-}
-
-.ourServices{
-    font-family: Roboto;
-    text-align: center;
-    display: block;
-}
-
-.ourServicesHeader{
-    font-family: "Open Sans", Sans-serif;
-    font-size: 35px;
-    color: #ffffff;
-    padding-top: 20px;
-}
-
-.ourServicesSubHeader{
-    width: 100%;
-    overflow: hidden;
-    white-space: wrap;
-    font-family: "Open Sans", Sans-serif;
-    color: #9DB2C8;
-    font-size: 20px;
-    margin: -40px 0px 30px 0px;
-}
-
-.sectionFourCommonHeader{
-    font-family: "Open Sans", Sans-serif;
-    font-size: 20px;
-    color: #ffffff;
-    margin-top: 5px;
-}
-
-.sectionFourCommonSubHeader{
-    font-family: "Open Sans", Sans-serif;
-    color: #9DB2C8;
-    font-size: 20px;
-    padding: 0px 30px;
-    margin-top: -15px;
-}
-
-.webDevMobDev{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    /* background-color: beige; */
-
-}
-
-.webDevelopement{
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-color: #1cc7d3;
-    border-width: thin;
-    display: block;
-    /* background-color: #0036d9; */
-    width: 30%;
-    padding: 30px 0px;
-}
-
-.mobileDevelopement{
-    border-bottom-style: solid;
-    border-color: #1cc7d3;
-    border-width: thin;
-    /* background-color: aqua; */
-    width: 30%;
-    padding: 30px 0px;
-}
-
-.borderRightForWebDev{
-    border-right-style: solid;
-    border-color: #1cc7d3;
-    border-width: thin;
-    display: block;
-    /* background-color: #0036d9; */
-    width: 30%;
-    padding: 30px 0px;
-}
-
-.noBorderForMobDev{
-    display: block;
-    /* background-color: #0036d9; */
-    width: 30%;
-    padding: 30px 0px;
-}
-
-.sectionFive{
-    background-color: #F7F7F8;
-}
-
-.sectionFiveCommonHeader{
-    font-family: "Open Sans", Sans-serif;
-    font-size: 35px;
-    color: #001934;
-    margin-top: 10px;
-
-}
-
-.sectionFiveCommonSubHeader{
-    font-family: "Open Sans", Sans-serif;
-    color: #6B747E;
-    font-size: 17px;
-    padding: 7px 20px;
-    margin-top: -20px;
-}
-
-.sectionFiveTop{
-    padding: 80px 150px 0px 150px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.sectionWorkingDays{
-    display: block;
-}
-
-.sectionContactInfo{
-    display: block;
-
-}
-
-.sectionGetStartedNow{
-    display: block;
-}
-
-.sectionFiveQueryForm{
-    display: block; 
-    margin-top: -20px;
-}
-
-.sectionFiveEmailID{
-    width: 265px;
-    padding: 2%;
-    color: #6B747E;
-    font-size: medium;
-    font-family: "Open Sans", Sans-serif;
-}
-
-.sectionFiveMessageForUs{
-    width: 265px;
-    height: 90px;
-    resize: none;
-    padding: 2%;
-    color: #6B747E;
-    font-size: medium;
-    font-family: "Open Sans", Sans-serif;
-    margin-top: 10px;
-}
-
-.sectionFiveSubmitButton{
-    width: 265px;
-    height: 40px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-family: "Open Sans", Sans-serif;
-    font-size: 15px;
-    color: aliceblue;
-    background-color: #1cc7d3;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-:hover.sectionFiveSubmitButton{
-    background-color: #1ca2d3;
-}
-
-.copyright{
-    border-top: 1px solid #c5c5c5;
-    padding: 25px 15px;
-    text-align: center;
-    color: #555555;
-    font-size: 16px;
-}
-

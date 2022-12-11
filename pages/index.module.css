@@ -1,6 +1,3 @@
-.mainContainer {
-  width: 100%;
-}
 
 .navBar {
   background-color: #f8f8f9;
@@ -414,15 +411,15 @@
   font-size: 16px;
 }
 
+/* Media Query */
+
+
 @media screen and (max-width: 500px) {
-  .mainContainer {
-    width: 100%;
-  }
 
   .navBar {
     /* background-color: #0036d9; */
     display: block;
-    width: fit-content;
+    width: 100%;
     padding: 20px;
   }
 
@@ -433,23 +430,22 @@
   }
 
   .navBarOptions {
-    display: flex;
-    /* justify-content: center; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    display: block;
     margin: auto;
-    padding: 0px 80px;
-    width: max-content;
+    padding: 0px;
   }
 
   .navBarOptionIconText {
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    margin-left: 10%;
   }
 
   .navBarIcon {
     width: 25px;
     height: 25px;
-    /* padding-right: -10px; */
   }
 
   .navBarIconStyles {
@@ -460,9 +456,10 @@
 
   .h3 {
     font-family: "Open Sans", Sans-serif;
-    padding: 0px 70px 0px 25px;
+    padding: 0px 50px 0px 20px;
+    align-items: flex-start;
     /* margin-left: -15px; */
-    width: fit-content;
+    width: 100%;
   }
 
   /* Section 2 */
@@ -470,16 +467,17 @@
   .sectionTwo {
     flex-direction: column;
     justify-content: center;
-    /* width: 100%; */
     width: 100%;
+    align-items: center;
     padding: 5px 10px;
     margin-top: 0px;
     margin-bottom: 60px;
     background-image: none;
+    /* background-color: yellow; */
   }
 
   .growBusiness {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     /* display: block; */
     display: flex;
     flex-direction: column;
@@ -490,9 +488,9 @@
   }
 
   .growBusinessHeader {
-    padding: 0px;
+    padding: 5px;
     font-family: "Open Sans", Sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     width: 100%;
     /* width: max-content; */
     color: #001934;
@@ -502,22 +500,24 @@
   .growBusinessSubHeader {
     width: 100%;
     /* width: max-content; */
-    padding: 0px;
+    padding: 5px;
     font-family: "Open Sans", Sans-serif;
     color: #6b747e;
     text-align: center;
-    font-size: 10x;
-    margin-top: -20px;
+    font-size: 5x;
+    margin-top: -35px;
   }
 
   .queryForm {
-    display: block;
-    padding: 0% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
     width: 100%;
   }
 
   .emailID {
-    width: 90%;
+    width: 250px;
     padding: 2%;
     color: #6b747e;
     font-size: medium;
@@ -526,24 +526,24 @@
   }
 
   .messageForUs {
-    width: 90%;
-    height: 146px;
-    /* max-height: 146px;
-      max-width: 447px; */
-    resize: none;
+    width: 250px;
     padding: 2%;
+    height: 130px;
     color: #6b747e;
     font-size: medium;
     font-family: "Open Sans", Sans-serif;
+    resize: none;
     margin-top: 10px;
+    /* max-height: 146px;
+      max-width: 447px; */
     /* border-radius: 10px; */
   }
 
   .submitButton {
-    width: 90%;
+    width: 250px;
     height: 50px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-family: "Open Sans", Sans-serif;
     font-size: 20px;
     color: aliceblue;

@@ -7,7 +7,7 @@ import styles from "./index.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.mainContainer}>
+    <div>
       {/* Section 1 navbar start */}
       {/* <div className={`${styles.navBar}${styles.navBar}`}> */}
       <div className={styles.navBar}>

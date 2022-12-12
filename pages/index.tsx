@@ -1,9 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "./index.module.css";
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>;
 
 export default function Home() {
   return (
@@ -170,14 +168,14 @@ export default function Home() {
         </div>
         <div className={styles.webDevMobDev}>
           <div className={styles.webDevelopement}>
-            <img src="/Take Requirements.png" alt="Take Requirements"></img>
+            <img src="/Web Development.svg" alt="Web Development"></img>
             <h4 className={styles.sectionFourCommonHeader}>Web Development</h4>
             <p className={styles.sectionFourCommonSubHeader}>
               Website design and development
             </p>
           </div>
           <div className={styles.mobileDevelopement}>
-            <img src="/Refine.png" alt="Refine it further"></img>
+            <img src="/Mobile Development.svg" alt="Mobile Development"></img>
             <h4 className={styles.sectionFourCommonHeader}>
               Mobile Devlopment
             </h4>
@@ -189,7 +187,10 @@ export default function Home() {
         </div>
         <div className={styles.webDevMobDev}>
           <div className={styles.borderRightForWebDev}>
-            <img src="/Take Requirements.png" alt="Take Requirements"></img>
+            <img
+              src="/Consultation Services.svg"
+              alt="Consultation Services"
+            ></img>
             <h4 className={styles.sectionFourCommonHeader}>
               Consultation Services
             </h4>
@@ -198,7 +199,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.noBorderForMobDev}>
-            <img src="/Refine.png" alt="Refine it further"></img>
+            <img src="/Enterprise Solution.svg" alt="Enterprise Solution"></img>
             <h4 className={styles.sectionFourCommonHeader}>
               Enterprise Solutions
             </h4>

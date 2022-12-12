@@ -4,6 +4,17 @@ import styles from "./index.module.css";
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>;
 
 export default function Home() {
+  var a;
+  var b;
+  var c;
+
+  const onSendMail= () => {
+    a = document.getElementsByName("email")[0];
+    b = document.getElementsByName("messageForUs")[0];
+    alert(`${a.value} ${b.value}`)
+
+  };
+
   return (
     <div>
       {/* Section 1 navbar start */}
@@ -61,7 +72,7 @@ export default function Home() {
               <input
                 className={styles.emailID}
                 type="email"
-                id="email"
+                id="eMail"
                 name="email"
                 placeholder="Email"
               ></input>
@@ -70,7 +81,7 @@ export default function Home() {
               <textarea
                 className={styles.messageForUs}
                 id="textArea"
-                name="textArea"
+                name="messageForUs"
                 placeholder="Message"
               ></textarea>
             </div>
@@ -79,6 +90,7 @@ export default function Home() {
                 className={styles.submitButton}
                 id="submitButton"
                 name="submitButton"
+                onClick={onSendMail}
               >
                 Send mail
               </button>

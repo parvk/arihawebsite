@@ -8,11 +8,10 @@ export default function Home() {
   var b;
   var c;
 
-  const onSendMail= () => {
+  const onSendMail = () => {
     a = document.getElementsByName("email")[0];
     b = document.getElementsByName("messageForUs")[0];
-    alert(`${a.value} ${b.value}`)
-
+    alert(`${a.value} ${b.value}`);
   };
 
   return (
@@ -180,14 +179,22 @@ export default function Home() {
         </div>
         <div className={styles.webDevMobDev}>
           <div className={styles.webDevelopement}>
-            <img src="/Web Development.svg" alt="Web Development"></img>
+            <img
+              className={styles.imgClass}
+              src="/Web Development.svg"
+              alt="Web Development"
+            ></img>
             <h4 className={styles.sectionFourCommonHeader}>Web Development</h4>
             <p className={styles.sectionFourCommonSubHeader}>
               Website design and development
             </p>
           </div>
           <div className={styles.mobileDevelopement}>
-            <img src="/Mobile Development.svg" alt="Mobile Development"></img>
+            <img
+              className={styles.imgClass}
+              src="/Mobile Development.svg"
+              alt="Mobile Development"
+            ></img>
             <h4 className={styles.sectionFourCommonHeader}>
               Mobile Devlopment
             </h4>
@@ -200,6 +207,7 @@ export default function Home() {
         <div className={styles.webDevMobDev}>
           <div className={styles.borderRightForWebDev}>
             <img
+              className={styles.imgClass}
               src="/Consultation Services.svg"
               alt="Consultation Services"
             ></img>
@@ -211,7 +219,11 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.noBorderForMobDev}>
-            <img src="/Enterprise Solution.svg" alt="Enterprise Solution"></img>
+            <img
+              className={styles.imgClass}
+              src="/Enterprise Solution.svg"
+              alt="Enterprise Solution"
+            ></img>
             <h4 className={styles.sectionFourCommonHeader}>
               Enterprise Solutions
             </h4>

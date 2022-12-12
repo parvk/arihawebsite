@@ -48,6 +48,7 @@
   font-family: "Open Sans", Sans-serif;
   padding: 0px 20px;
   margin-left: -15px;
+  font-size: 15px;
 }
 
 .sectionTwo {
@@ -279,6 +280,11 @@
   margin-top: -15px;
 }
 
+.imgClass {
+  width: 36px;
+  height: 36px;
+}
+
 .webDevMobDev {
   display: flex;
   justify-content: center;
@@ -398,6 +404,7 @@
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  box-shadow: 1px 1px 3px #5d5d5d;
 }
 
 :hover.sectionFiveSubmitButton {
@@ -463,6 +470,7 @@
     align-items: flex-start;
     /* margin-left: -15px; */
     width: 100%;
+    font-size: 13px ;
   }
 
   /* Section 2 */
@@ -603,7 +611,7 @@
     color: #6b747e;
     font-size: 15px;
     padding: 0px 20px;
-    margin-top: -10px;
+    margin-top: -20px;
     width: 100%;
     /* overflow: hidden;
     white-space: wrap;

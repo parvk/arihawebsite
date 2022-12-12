@@ -114,14 +114,14 @@ export default function Home() {
         </div>
         <div className={styles.takeRequirementRefineFurther}>
           <div className={styles.takeRequirement}>
-            <img src="/Take Requirements.png" alt="Take Requirements"></img>
+            <img className={styles.imgClass} src="/Take Requirements.png" alt="Take Requirements"></img>
             <h4 className={styles.commonHeader}> Take requirement</h4>
             <p className={styles.commonSubHeader}>
               Gather raw requirements about your idea
             </p>
           </div>
           <div className={styles.refineFurther}>
-            <img src="/Refine.png" alt="Refine it further"></img>
+            <img className={styles.imgClass} src="/Refine.png" alt="Refine it further"></img>
             <h4 className={styles.commonHeader}> Refine it further</h4>
             <p className={styles.commonSubHeader}>
               Refine requirements by removing noise and make them precise and
@@ -131,7 +131,7 @@ export default function Home() {
         </div>
         <div className={styles.designConfirmDevelope}>
           <div className={styles.takeRequirement}>
-            <img src="/Design&Confirm.png" alt="Design and confirm"></img>
+            <img className={styles.imgClass} src="/Design&Confirm.png" alt="Design and confirm"></img>
             <h4 className={styles.commonHeader}> Design and confirm</h4>
             <p className={styles.commonSubHeader}>
               Provide you with a design prototype of how the solution will look
@@ -139,7 +139,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.refineFurther}>
-            <img src="/Develope(desktop).png" alt="Develop"></img>
+            <img className={styles.imgClass} src="/Develope(desktop).png" alt="Develop"></img>
             <h4 className={styles.commonHeader}> Develop </h4>
             <p className={styles.commonSubHeader}>
               Once confirmed, we start development in agile fashion
@@ -148,7 +148,7 @@ export default function Home() {
         </div>
         <div className={styles.testDeliver}>
           <div className={styles.borderRightForTest}>
-            <img src="/Test.png" alt="Test"></img>
+            <img className={styles.imgClass} src="/Test.png" alt="Test"></img>
             <h4 className={styles.commonHeader}> Test </h4>
             <p className={styles.commonSubHeader}>
               Provide you the solution for acceptance test and assure we deliver
@@ -156,7 +156,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.noBorderForDevelope}>
-            <img src="/Deliver.png" alt="Deliver"></img>
+            <img className={styles.imgClass} src="/Deliver.png" alt="Deliver"></img>
             <h4 className={styles.commonHeader}> Deliver </h4>
             <p className={styles.commonSubHeader}>Deliver the product</p>
           </div>

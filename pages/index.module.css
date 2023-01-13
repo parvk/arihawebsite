@@ -1,3 +1,7 @@
+.body{
+  font-family: "Open Sans", Sans-serif;
+}
+
 .navBar {
   background-color: #f8f8f9;
   display: flex;

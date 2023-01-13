@@ -15,7 +15,7 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div className={styles.Ariha}>
       {/* Section 1 navbar start */}
       {/* <div className={`${styles.navBar}${styles.navBar}`}> */}
       <div className={styles.navBar}>

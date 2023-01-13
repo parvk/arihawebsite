@@ -95,6 +95,8 @@
   color: #6b747e;
   font-size: medium;
   font-family: "Open Sans", Sans-serif;
+  border-color: #dadada;
+  border-style: solid;
   /* border-radius: 10px; */
 }
 
@@ -106,6 +108,7 @@
   resize: none;
   padding: 2%;
   color: #6b747e;
+  border-color: #dadada;
   font-size: medium;
   font-family: "Open Sans", Sans-serif;
   margin-top: 10px;
@@ -379,6 +382,8 @@
   width: 265px;
   padding: 2%;
   color: #6b747e;
+  border-color: #dadada;
+  border-style: solid;
   font-size: medium;
   font-family: "Open Sans", Sans-serif;
 }
@@ -389,6 +394,8 @@
   resize: none;
   padding: 2%;
   color: #6b747e;
+  border-color: #dadada;
+  border-style: solid;
   font-size: medium;
   font-family: "Open Sans", Sans-serif;
   margin-top: 10px;

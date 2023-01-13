@@ -244,7 +244,7 @@ export default function Home() {
           </div>
           <div className={styles.sectionContactInfo}>
             <h4 className={styles.sectionFiveCommonHeader}>Contact Info</h4>
-            <p className={styles.sectionFiveCommonSubHeader}>(+91)8978767894</p>
+            <p className={styles.sectionFiveCommonSubHeader}>(+91)9769682483</p>
             <p className={styles.sectionFiveCommonSubHeader}>
               yakshkothari5@gmail.com
             </p>
